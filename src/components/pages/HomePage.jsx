@@ -123,7 +123,6 @@ function HomePage() {
           </footer>
         </FadeIn>
       </div>
-      <Analytics />
     </ThemeProvider>
   );
 }
