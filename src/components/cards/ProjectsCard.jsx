@@ -55,7 +55,7 @@ function ProjectsCard() {
               Collection of hands-on cloud engineering projects using AWS
               services.
             </p>
-            <p className="text-xs text-foreground/50 font-mono rounded-md inline-block mt-1">
+            <p className="text-xs text-foreground/50 font-mono rounded-md mt-1">
               github.com/eenlpe1/NextWork-AWS-Projects
             </p>
           </a>
@@ -79,7 +79,7 @@ function ProjectsCard() {
             <p className="text-xs text-foreground/70">
               Augmented Reality Android-Based Learning for Kids.
             </p>
-            <p className="text-xs text-foreground/50 font-mono rounded-md inline-block mt-1">
+            <p className="text-xs text-foreground/50 font-mono rounded-md mt-1">
               github.com/eenlpe1/ARAL-Kids
             </p>
           </a>
