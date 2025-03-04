@@ -13,7 +13,7 @@ function HomePage() {
     <ThemeProvider>
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header Section */}
-        <FadeIn transitionDuration={200} delay={300}>
+        <FadeIn transitionDuration={500} delay={400}>
           <section id="header-section" className="mb-8">
             <div className="flex items-center gap-4 md:gap-6">
               <img
@@ -83,7 +83,7 @@ function HomePage() {
         </FadeIn>
 
         {/* Body Section */}
-        <FadeIn transitionDuration={400} delay={600}>
+        <FadeIn transitionDuration={600} delay={600}>
           <section className="grid grid-cols-1 md:grid-cols-6 gap-2">
             <AboutCard />
 
@@ -100,7 +100,7 @@ function HomePage() {
         </FadeIn>
 
         {/* Footer Section */}
-        <FadeIn transitionDuration={200} delay={800}>
+        <FadeIn transitionDuration={700} delay={800}>
           <footer className="max-w-4xl mx-auto px-1.5 py-4 border-t mt-12">
             <div className="flex justify-between">
               <p className="text-sm text-foreground/70">
