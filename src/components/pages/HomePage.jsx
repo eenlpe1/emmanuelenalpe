@@ -7,6 +7,7 @@ import CertificationCard from "../cards/CertificationCard";
 import ProjectsCard from "../cards/ProjectsCard";
 import ContactCard from "../cards/ContactCard";
 import FadeIn from "react-fade-in";
+import { Analytics } from "@vercel/analytics/next";
 
 function HomePage() {
   return (
@@ -122,6 +123,7 @@ function HomePage() {
           </footer>
         </FadeIn>
       </div>
+      <Analytics />
     </ThemeProvider>
   );
 }
