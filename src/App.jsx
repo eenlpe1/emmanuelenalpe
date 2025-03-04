@@ -6,6 +6,6 @@ function App() {
       <Button>Click me</Button>
     </div>
   );
-}
+} 
 
 export default App;
