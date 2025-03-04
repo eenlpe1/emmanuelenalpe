@@ -23,8 +23,8 @@ function AboutCard() {
       <p className="text-[14.5px] text-foreground/90 leading-relaxed font-normal">
         I’m a Software Developer and aspiring Cloud/DevOps Engineer in the
         making with a strong foundation in cloud technologies and software
-        development. As a fresh graduate, I’m passionate about cloud computing,
-        automation, and building scalable systems.
+        development. I’m passionate about cloud computing, software development,
+        and building scalable systems.
         <br />
         <br />
         I’ve worked on projects involving AWS, infrastructure as code, and
