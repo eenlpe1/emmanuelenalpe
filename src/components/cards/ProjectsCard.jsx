@@ -42,7 +42,7 @@ function ProjectsCard() {
           </svg>
         </a>
       </div>
-      <div className="grid grid-cols-2 sm:grid:cols-2 gap-2">
+      <div className="grid grid-cols-1 sm:grid:cols-2 gap-2">
         <div className="p-3 space-y-1 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200">
           <a
             target="_blank"

@@ -48,7 +48,7 @@ function ExperienceCard() {
                 Naga College Foundation, Inc.
               </span>
               <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/10">
-                2024
+                2025
               </span>
             </div>
           </div>

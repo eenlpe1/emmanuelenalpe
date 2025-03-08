@@ -78,6 +78,15 @@ function ContactCard() {
             </a>
           </div>
         </div>
+        <div>
+          <p className="text-xs text-foreground/70 mb-2">Resume</p>
+          <a
+            className="block p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200"
+            href="mailto:eenalpe3@gmail.com"
+          >
+            <p className="text-sm font-medium">Emmanuel Enalpe III - Resume</p>
+          </a>
+        </div>
       </div>
     </div>
   );
