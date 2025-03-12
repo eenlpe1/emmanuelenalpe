@@ -53,7 +53,7 @@ pnpm run dev
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://github.com/eenlpe1/eenlpe1-portfolio?tab=MIT-1-ov-file).
 
 ## Acknowledgements
 
