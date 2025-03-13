@@ -4,7 +4,7 @@ import AboutCard from "../cards/AboutCard";
 import ExperienceCard from "../cards/ExperienceCard";
 import TechStackCard from "../cards/TechStackCard";
 import CertificationCard from "../cards/CertificationCard";
-import ProjectsCard from "../cards/ProjectsCard";
+import ProjectCard from "../cards/ProjectCard";
 import ContactCard from "../cards/ContactCard";
 import FadeIn from "react-fade-in";
 
@@ -93,7 +93,7 @@ function HomePage() {
 
             <CertificationCard />
 
-            <ProjectsCard />
+            <ProjectCard />
 
             <ContactCard />
           </section>
