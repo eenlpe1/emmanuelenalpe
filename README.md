@@ -8,9 +8,7 @@ Instructions to get the project up and running.
 
 ### Prerequisites
 
-- Installed ```pnpm``` package manager.
-- Installed latest version of ```NodeJS```.
-- Latest version of ```React, Tailwind and Shadcn```.
+- Installed latest versions of the following: [pnpm](https://pnpm.io/), [NodeJS](https://nodejs.org/en), [React](https://react.dev/), [TailwindCSS](https://tailwindcss.com/), [Shadcn/UI (Vite)](https://ui.shadcn.com/).
 
 ### Installation
 
