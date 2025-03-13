@@ -51,12 +51,12 @@ function HomePage() {
                   <span className="truncate">Naga City, Philippines</span>
                 </p>
                 <p className="text-sm font-semibold md:text-base mt-3 md:mt-2 font">
-                  Software Developer and Cloud Certified
+                  Developer and Cloud Certified
                 </p>
                 {/* Email Button */}
                 <div className="mt-3 md:mt-4">
                   <a
-                    className="inline-flex h-7 md:h-8 items-center rounded-md bg-foreground px-2.5 md:px-4 text-[10px] md:text-xs font-medium text-background transition-all duration-200 hover:bg-foreground/90 hover:-translate-y-0.5 gap-1 md:gap-1.5 whitespace-nowrap"
+                    className="inline-flex h-7 md:h-9 items-center rounded-sm bg-foreground px-2.5 md:px-4 text-[10px] md:text-xs font-medium text-background transition-all duration-200 hover:bg-foreground/90 hover:-translate-y-0.5 gap-1 md:gap-1.5 whitespace-nowrap"
                     href="mailto:eenalpe3@gmail.com"
                   >
                     <svg
@@ -74,7 +74,7 @@ function HomePage() {
                       <rect width="20" height="16" x="2" y="4" rx="2" />
                       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                     </svg>
-                    <span className="text-left">Send Email</span>
+                    <span className="text-left font-medium">Send Email</span>
                   </a>
                 </div>
               </div>
@@ -102,23 +102,10 @@ function HomePage() {
         {/* Footer Section */}
         <FadeIn transitionDuration={700} delay={800}>
           <footer className="max-w-4xl mx-auto px-1.5 py-4 border-t mt-12">
-            <div className="flex justify-between">
-              <p className="text-sm text-foreground/70">
+             <p className="text-sm text-foreground/70 flex items-center justify-center">
                 © {new Date().getFullYear()}. Emmanuel Enalpe III. All rights
                 reserved.
               </p>
-              <p className="text-sm text-foreground/70">
-                Design inspired from{" "}
-                <a
-                  href="https://bryllim.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:underline"
-                >
-                  Bryl Lim
-                </a>
-              </p>
-            </div>
           </footer>
         </FadeIn>
       </div>

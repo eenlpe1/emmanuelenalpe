@@ -23,10 +23,10 @@ function ContactCard() {
         <a
           target="_blank"
           className="block p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200"
-          href="https://eenlpe1-portfolio.vercel.app/"
+          href="https://emmanuelenalpe-portfolio.vercel.app/"
         >
           <p className="text-xs text-foreground/70">Link</p>
-          <p className="text-sm font-medium">eenlpe1-portfolio.vercel.app/</p>
+          <p className="text-[13px] font-medium">emmanuelenalpe-portfolio.vercel.app</p>
         </a>
         <a
           className="block p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200"

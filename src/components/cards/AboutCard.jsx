@@ -21,16 +21,16 @@ function AboutCard() {
         <h2 className="text-lg font-bold">About</h2>
       </div>
       <p className="text-[14.5px] text-foreground/90 leading-relaxed font-normal">
-        I’m a Software Developer and aspiring Cloud/DevOps Engineer in the
-        making with a strong foundation in cloud technologies and software
-        development. I’m passionate about cloud computing, software development,
-        and building scalable systems.
+        A Junior Developer and aspiring Cloud/DevOps Engineer in the making
+        with a strong foundation in cloud technologies and software development.
+        I’m passionate about cloud computing, software development, and building
+        scalable systems.
         <br />
         <br />
-        I’ve worked on projects involving AWS, infrastructure as code, and
-        full-stack development, including mobile and web applications.
-        Currently, I’m preparing for my AWS Solutions Architect Associate (SAA)
-        certification while expanding my portfolio.
+        I’ve worked on my personal projects involving AWS, mobile development,
+        and full-stack development. Currently, I’m preparing for my AWS
+        Solutions Architect Associate certification while expanding my
+        technical expertise.
         <br />
         <br />
         I’m always eager to learn, optimize workflows, and explore new tech.

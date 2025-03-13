@@ -26,7 +26,7 @@ function ExperienceCard() {
         <div className="relative pl-6 group/role">
           <div className="absolute left-0 top-1.5 w-3 h-3 rounded-full border-2 bg-accent-foreground"></div>
           <div className="space-y-1">
-            <h3 className="text-sm font-bold">Junior Programmer</h3>
+            <h3 className="text-sm font-bold">Junior Developer</h3>
             <div className="flex items-center justify-between">
               <span className="text-xs text-foreground/70">
                 Technology Resource Center, <br />
