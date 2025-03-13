@@ -1,4 +1,4 @@
-function ProjectsCard() {
+function ProjectCard() {
   return (
     <div className="p-4 col-span-1 md:col-span-4 space-y-2 group rounded-md border bg-accent/40">
       <div className="flex items-center justify-between">
@@ -97,4 +97,4 @@ function ProjectsCard() {
   );
 }
 
-export default ProjectsCard;
+export default ProjectCard;
