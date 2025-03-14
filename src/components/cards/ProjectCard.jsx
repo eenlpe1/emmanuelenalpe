@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { Separator } from "@/components/ui/separator"
+
 
 function ProjectCard() {
   return (
@@ -48,52 +50,48 @@ function ProjectCard() {
       </div>
       <div className="grid grid-cols-1 sm:grid:cols-2 gap-2">
         <div className="p-3 space-y-1 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block space-y-1"
-            href="https://github.com/eenlpe1/NextWork-AWS-Projects"
-          >
-            <h3 className="text-sm font-semibold">AWS Projects</h3>
-            <p className="text-xs text-foreground/70">
-              Collection of hands-on cloud engineering projects using AWS
-              services.
-            </p>
-            <p className="text-xs text-foreground/50 font-mono rounded-md inline-block mt-1 break-all">
-              github.com/eenlpe1/NextWork-AWS-Projects
-            </p>
-          </a>
-          <div className="flex flex-wrap gap-1.5">
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
-              Cloud
-            </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
-              DevOps
-            </span>
+          <div>
+            <a target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/eenlpe1/NextWork-AWS-Projects"
+              className="space-y-1">
+              <h4 className="text-sm font-bold leading-none">AWS Projects</h4>
+              <p className="text-sm text-muted-foreground">
+                Collection of hands-on cloud engineering projects using AWS
+                services.
+              </p>
+              <p className="text-xs text-foreground/50 font-mono rounded-md inline-block mt-1 break-all">
+                github.com/eenlpe1/NextWork-AWS-Projects
+              </p>
+            </a>
+            <Separator className="my-2 bg-foreground/40" />
+            <div className="flex h-5 items-center space-x-4 text-sm">
+              <div className="text-xs">Cloud</div>
+              <Separator orientation="vertical" className="bg-foreground/40" />
+              <div className="text-xs">DevOps</div>
+            </div>
           </div>
         </div>
         <div className="p-3 space-y-1 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block space-y-1"
-            href="https://github.com/eenlpe1/ARAL-Kids"
-          >
-            <h3 className="text-sm font-semibold">ARAL-Kids</h3>
-            <p className="text-xs text-foreground/70">
-              Augmented Reality Android-Based Learning for Kids.
-            </p>
-            <p className="text-xs text-foreground/50 font-mono rounded-md inline-block mt-1 break-all">
-              github.com/eenlpe1/ARAL-Kids
-            </p>
-          </a>
-          <div className="flex flex-wrap gap-1.5">
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
-              AR
-            </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
-              Mobile Development
-            </span>
+          <div>
+            <a target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/eenlpe1/ARAL-Kids"
+              className="space-y-1">
+              <h4 className="text-sm font-bold leading-none">ARAL-Kids</h4>
+              <p className="text-sm text-muted-foreground">
+                Augmented Reality Android-Based Learning for Kids.
+              </p>
+              <p className="text-xs text-foreground/50 font-mono rounded-md inline-block mt-1 break-all">
+                github.com/eenlpe1/ARAL-Kids
+              </p>
+            </a>
+            <Separator className="my-2 bg-foreground/40" />
+            <div className="flex h-5 items-center space-x-4 text-sm">
+              <div className="text-xs">Augmented Reality</div>
+              <Separator orientation="vertical" className="bg-foreground/40" />
+              <div className="text-xs">Mobile Development</div>
+            </div>
           </div>
         </div>
       </div>

@@ -101,11 +101,11 @@ function HomePage() {
 
         {/* Footer Section */}
         <FadeIn transitionDuration={700} delay={800}>
-          <footer className="max-w-4xl mx-auto px-1.5 py-4 border-t mt-12">
-             <p className="text-sm text-foreground/70 flex items-center justify-center">
-                © {new Date().getFullYear()}. Emmanuel Enalpe III. All rights
-                reserved.
-              </p>
+          <footer className="max-w-4xl mx-auto px-1.5 py-4 border-t border-foreground/30 mt-12">
+            <p className="text-sm text-foreground/70 flex items-center justify-center">
+              © {new Date().getFullYear()}. Emmanuel Enalpe III. All rights
+              reserved.
+            </p>
           </footer>
         </FadeIn>
       </div>
