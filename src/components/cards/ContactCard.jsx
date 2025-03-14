@@ -1,6 +1,6 @@
 function ContactCard() {
   return (
-    <div className="p-4 col-span-1 md:col-span-2 space-y-3 group rounded-md border bg-accent/50">
+    <div className="p-4 col-span-1 md:col-span-2 space-y-3 group rounded-md border border-foreground/20 bg-accent/50">
       <div className="flex items-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -22,14 +22,14 @@ function ContactCard() {
       <div className="space-y-4">
         <a
           target="_blank"
-          className="block p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200"
+          className="block p-2 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200"
           href="https://emmanuelenalpe.vercel.app/"
         >
           <p className="text-xs text-foreground/70">Link</p>
           <p className="text-sm font-medium">emmanuelenalpe.vercel.app</p>
         </a>
         <a
-          className="block p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200"
+          className="block p-2 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200"
           href="mailto:eenalpe3@gmail.com"
         >
           <p className="text-xs text-foreground/70">Email</p>
@@ -41,7 +41,7 @@ function ContactCard() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200"
+              className="flex items-center justify-center p-2 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200"
               aria-label="Visit LinkedIn profile"
               title="Visit LinkedIn profile"
               href="https://www.linkedin.com/in/eenlpe1/"
@@ -58,7 +58,7 @@ function ContactCard() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200"
+              className="flex items-center justify-center p-2 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200"
               aria-label="Visit GitHub profile"
               title="Visit GitHub profile"
               href="https://github.com/eenlpe1"
@@ -81,7 +81,7 @@ function ContactCard() {
         <div>
           <p className="text-xs text-foreground/70 mb-2">Resume</p>
           <a
-            className="block p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200"
+            className="block p-2 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200"
             href="mailto:eenalpe3@gmail.com"
           >
             <p className="text-sm font-medium">Emmanuel Enalpe III - Resume</p>

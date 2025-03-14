@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function ProjectCard() {
   return (
-    <div className="p-4 col-span-1 md:col-span-4 space-y-2 group rounded-md border bg-accent/50">
+    <div className="p-4 col-span-1 md:col-span-4 space-y-2 group rounded-md border border-foreground/20 bg-accent/50">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <svg
@@ -47,7 +47,7 @@ function ProjectCard() {
         </nav>
       </div>
       <div className="grid grid-cols-1 sm:grid:cols-2 gap-2">
-        <div className="p-3 space-y-1 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200">
+        <div className="p-3 space-y-1 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -64,15 +64,15 @@ function ProjectCard() {
             </p>
           </a>
           <div className="flex flex-wrap gap-1.5">
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Cloud
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               DevOps
             </span>
           </div>
         </div>
-        <div className="p-3 space-y-1 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/15 transition-colors duration-200">
+        <div className="p-3 space-y-1 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -88,10 +88,10 @@ function ProjectCard() {
             </p>
           </a>
           <div className="flex flex-wrap gap-1.5">
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               AR
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Mobile Development
             </span>
           </div>

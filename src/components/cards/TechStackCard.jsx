@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function TechStackCard() {
   return (
-    <div className="p-4 col-span-1 md:col-span-3 space-y-2 group rounded-md border bg-accent/50">
+    <div className="p-4 col-span-1 md:col-span-3 space-y-2 group rounded-md border border-foreground/20 bg-accent/50">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <svg
@@ -50,19 +50,19 @@ function TechStackCard() {
         <div>
           <h3 className="text-sm font-semibold mb-2">Frontend</h3>
           <div className="flex flex-wrap gap-1.5">
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               HTML
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               CSS
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               JavaScript
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Tailwind CSS
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               React
             </span>
           </div>
@@ -70,16 +70,16 @@ function TechStackCard() {
         <div>
           <h3 className="text-sm font-semibold mb-2">Backend</h3>
           <div className="flex flex-wrap gap-1.5">
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Node.js
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Python
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Laravel
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               MySQL
             </span>
           </div>
@@ -87,25 +87,25 @@ function TechStackCard() {
         <div>
           <h3 className="text-sm font-semibold mb-2">Cloud &amp; DevOps</h3>
           <div className="flex flex-wrap gap-1.5">
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               AWS
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Docker
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Kubernetes
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Terraform
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               GitHub Actions
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               Git/GitHub
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               GitLab
             </span>
           </div>

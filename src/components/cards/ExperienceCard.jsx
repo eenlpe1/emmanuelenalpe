@@ -1,6 +1,6 @@
 function ExperienceCard() {
   return (
-    <div className="group p-4 col-span-1 md:col-span-2 md:row-span-1 space-y-2 rounded-md border bg-accent/50">
+    <div className="group p-4 col-span-1 md:col-span-2 md:row-span-1 space-y-2 rounded-md border border-foreground/20 bg-accent/50">
       <div className="flex items-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ function ExperienceCard() {
                 Technology Resource Center, <br />
                 Naga College Foundation, Inc.
               </span>
-              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/10">
+              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/20">
                 2025
               </span>
             </div>
@@ -47,7 +47,7 @@ function ExperienceCard() {
                 VP for Digital Transformation, <br />
                 Naga College Foundation, Inc.
               </span>
-              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/10">
+              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/20">
                 2025
               </span>
             </div>
@@ -59,7 +59,7 @@ function ExperienceCard() {
             <h3 className="text-sm font-bold">Co-Founder</h3>
             <div className="flex items-center justify-between">
               <span className="text-xs text-foreground/70">MapaKode</span>
-              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/10">
+              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/20">
                 2024
               </span>
             </div>
@@ -73,7 +73,7 @@ function ExperienceCard() {
               <span className="text-xs text-foreground/70">
                 Naga College Foundation, Inc.
               </span>
-              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/10">
+              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/20">
                 2024
               </span>
             </div>
@@ -87,7 +87,7 @@ function ExperienceCard() {
               <span className="text-xs text-foreground/70">
                 Wrote first line of code
               </span>
-              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/10">
+              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/20">
                 2018
               </span>
             </div>
