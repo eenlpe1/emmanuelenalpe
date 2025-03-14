@@ -56,7 +56,7 @@ function HomePage() {
                 {/* Email Button */}
                 <div className="mt-3 md:mt-4">
                   <a
-                    className="inline-flex h-7 md:h-9 items-center rounded-sm bg-foreground px-2.5 md:px-4 text-[10px] md:text-xs font-medium text-background transition-all duration-200 hover:bg-foreground/90 hover:-translate-y-0.5 gap-1 md:gap-1.5 whitespace-nowrap"
+                    className="inline-flex h-7 md:h-9 items-center rounded-sm bg-foreground px-2.5 md:px-3.5 text-[10px] md:text-xs font-medium text-background transition-all duration-200 hover:bg-foreground/90 hover:-translate-y-0.5 gap-1 md:gap-1.5 whitespace-nowrap"
                     href="mailto:eenalpe3@gmail.com"
                   >
                     <svg
