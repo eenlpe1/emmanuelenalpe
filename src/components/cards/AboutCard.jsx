@@ -1,6 +1,6 @@
 function AboutCard() {
   return (
-    <div className="group p-4 col-span-1 md:col-span-4 space-y-2 rounded-md border bg-accent/40">
+    <div className="group p-4 col-span-1 md:col-span-4 space-y-2 rounded-md border bg-accent/50">
       <div className="flex items-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"

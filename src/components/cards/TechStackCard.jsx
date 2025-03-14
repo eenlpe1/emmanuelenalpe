@@ -1,6 +1,8 @@
+import { NavLink } from "react-router-dom";
+
 function TechStackCard() {
   return (
-    <div className="p-4 col-span-1 md:col-span-3 space-y-2 group rounded-md border bg-accent/40">
+    <div className="p-4 col-span-1 md:col-span-3 space-y-2 group rounded-md border bg-accent/50">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <svg
@@ -21,26 +23,28 @@ function TechStackCard() {
           </svg>
           <h2 className="text-lg font-bold">Tech Stack</h2>
         </div>
-        <a
-          className="text-xs text-foreground/70 hover:text-foreground flex items-center gap-0.5 transition-colors duration-200"
-          href="#"
-        >
-          View All
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="17"
-            height="17"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="lucide lucide-chevron-right"
+        <nav>
+          <NavLink
+            to="/tech-stacks"
+            className="text-xs text-foreground/70 hover:text-foreground flex items-center gap-0.5 transition-colors duration-200"
           >
-            <path d="m9 18 6-6-6-6" />
-          </svg>
-        </a>
+            View All
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="17"
+              height="17"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-chevron-right"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </NavLink>
+        </nav>
       </div>
       <div className="space-y-4">
         <div>

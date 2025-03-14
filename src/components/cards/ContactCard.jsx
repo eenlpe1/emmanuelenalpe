@@ -1,6 +1,6 @@
 function ContactCard() {
   return (
-    <div className="p-4 col-span-1 md:col-span-2 space-y-3 group rounded-md border bg-accent/40">
+    <div className="p-4 col-span-1 md:col-span-2 space-y-3 group rounded-md border bg-accent/50">
       <div className="flex items-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
