@@ -51,7 +51,7 @@ function HomePage() {
                   <span className="truncate">Naga City, Philippines</span>
                 </p>
                 <p className="text-sm font-semibold md:text-base mt-3 md:mt-2 font">
-                  Developer and Cloud Certified
+                  Developer and AWS Certified
                 </p>
                 {/* Email Button */}
                 <div className="mt-3 md:mt-4">

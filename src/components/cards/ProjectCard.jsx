@@ -64,7 +64,7 @@ function ProjectCard() {
                 github.com/eenlpe1/NextWork-AWS-Projects
               </p>
             </a>
-            <Separator className="my-2 bg-foreground/40" />
+            <Separator className="my-1 bg-foreground/40" />
             <div className="flex h-5 items-center space-x-4 text-sm">
               <div className="text-xs">Cloud</div>
               <Separator orientation="vertical" className="bg-foreground/40" />
@@ -86,7 +86,7 @@ function ProjectCard() {
                 github.com/eenlpe1/ARAL-Kids
               </p>
             </a>
-            <Separator className="my-2 bg-foreground/40" />
+            <Separator className="my-1 bg-foreground/40" />
             <div className="flex h-5 items-center space-x-4 text-sm">
               <div className="text-xs">Augmented Reality</div>
               <Separator orientation="vertical" className="bg-foreground/40" />

@@ -23,10 +23,10 @@ function ContactCard() {
         <a
           target="_blank"
           className="block p-2 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200"
-          href="https://emmanuelenalpe.vercel.app/"
+          href="https://mapakode.onrender.com/index.html"
         >
-          <p className="text-xs text-foreground/70">Link</p>
-          <p className="text-sm font-medium">emmanuelenalpe.vercel.app</p>
+          <p className="text-xs text-foreground/70">Let us do the Kode. Simple.</p>
+          <p className="text-sm font-medium">mapakode.onrender.com</p>
         </a>
         <a
           className="block p-2 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200"
@@ -79,7 +79,7 @@ function ContactCard() {
           </div>
         </div>
         <div>
-          <p className="text-xs text-foreground/70 mb-2">Resume</p>
+          <p className="text-xs text-foreground/70 mb-2">View my Resume</p>
           <a
             className="block p-2 rounded-md bg-foreground/5 border border-foreground/20 hover:bg-foreground/15 transition-colors duration-200"
             href="mailto:eenalpe3@gmail.com"
