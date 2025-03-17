@@ -14,7 +14,7 @@ function TechStackPage() {
                 to="/"
                 className="text-[14px] text-foreground/70 hover:text-foreground mt-2.5 flex items-center gap-1.5 transition-colors duration-200"
               >
-                
+
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="21"
@@ -38,7 +38,81 @@ function TechStackPage() {
 
         {/* Body Section */}
         <FadeIn transitionDuration={600} delay={600}>
-          
+          <div className="space-y-8">
+
+            {/* Front-End */}
+            <div>
+              <h2 className="text-lg font-bold mb-4">Front End</h2>
+              <div className="flex flex-wrap gap-2 font-medium">
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">HTML</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">CSS</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Tailwind CSS</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">JavaScript</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">React</span>
+              </div>
+            </div>
+
+            {/* Back-End */}
+            <div>
+              <h2 className="text-lg font-bold mb-4">Back End</h2>
+              <div className="flex flex-wrap gap-2 font-medium">
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Node.Js</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Python</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Laravel</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">MySQL</span>
+              </div>
+            </div>
+
+            {/* Mobile Development */}
+            <div>
+              <h2 className="text-lg font-bold mb-4">Mobile Development</h2>
+              <div className="flex flex-wrap gap-2 font-medium">
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Dart</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Flutter</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Android</span>
+              </div>
+            </div>
+
+            {/* Cloud & DevOps */}
+            <div>
+              <h2 className="text-lg font-bold mb-4">Cloud & DevOps</h2>
+              <div className="flex flex-wrap gap-2 font-medium">
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">AWS</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Docker</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Kubernetes</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Terraform</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">GitHub Actions</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">GitLab</span>
+              </div>
+            </div>
+
+            {/* UI/UX */}
+            <div>
+              <h2 className="text-lg font-bold mb-4"> UI/UX Tools</h2>
+              <div className="flex flex-wrap gap-2 font-medium">
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Figma</span>
+              </div>
+            </div>
+
+            {/* Developer Tools */}
+            <div>
+              <h2 className="text-lg font-bold mb-4"> Developer Tools</h2>
+              <div className="flex flex-wrap gap-2 font-medium">
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Git</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">GitHub</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">GitHub Actions</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Vercel</span>
+
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">VS Code</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">IntelliJ</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">PyCharm</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Android Studio</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Postman</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Trello</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Jira</span>
+              </div>
+            </div>
+          </div>
         </FadeIn>
 
         {/* Footer Section */}
