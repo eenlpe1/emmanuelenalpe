@@ -90,6 +90,8 @@ function ProjectCard() {
             <div className="flex h-5 items-center space-x-4 text-sm">
               <div className="text-xs">Augmented Reality</div>
               <Separator orientation="vertical" className="bg-foreground/40" />
+              <div className="text-xs">VuforiaSDK</div>
+              <Separator orientation="vertical" className="bg-foreground/40" />
               <div className="text-xs">Mobile Development</div>
             </div>
           </div>
