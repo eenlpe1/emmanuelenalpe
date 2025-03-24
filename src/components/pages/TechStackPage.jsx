@@ -46,9 +46,11 @@ function TechStackPage() {
               <div className="flex flex-wrap gap-2 font-medium">
                 <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">HTML</span>
                 <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">CSS</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">BootStrap 5</span>
                 <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Tailwind CSS</span>
                 <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">JavaScript</span>
                 <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">React</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Next.js</span>
               </div>
             </div>
 
@@ -58,6 +60,7 @@ function TechStackPage() {
               <div className="flex flex-wrap gap-2 font-medium">
                 <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Node.Js</span>
                 <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Python</span>
+                <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">CodeIgniter</span>
                 <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">Laravel</span>
                 <span class="px-3 py-1 text-sm rounded-md border border-foreground/20 bg-accent/50">MySQL</span>
               </div>
