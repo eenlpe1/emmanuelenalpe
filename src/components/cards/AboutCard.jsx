@@ -21,7 +21,7 @@ function AboutCard() {
         <h2 className="text-lg font-bold">About</h2>
       </div>
       <p className="text-[14.5px] text-foreground/90 leading-relaxed font-normal">
-        A Junior Developer and aspiring Cloud/DevOps Engineer in the making
+        A Developer and aspiring Cloud/DevOps Engineer in the making
         with a strong foundation in cloud technologies and software development.
         I’m passionate about cloud computing, software development, and building
         scalable systems.
