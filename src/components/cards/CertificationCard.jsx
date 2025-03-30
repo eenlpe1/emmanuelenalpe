@@ -53,7 +53,7 @@ function CertificationCard() {
           href="https://www.credly.com/badges/e5f36b11-42db-48e0-8c17-d665896e9a0f/linked_in?t=srarg5"
         >
           <h3 className="text-xs font-bold">Introduction to Cybersecurity</h3>
-          <p className="text-[11.5px] text-foreground/70">CISCO</p>
+          <p className="text-[11.5px] text-foreground/70">CISCO Networking Academy</p>
         </a>
       </div>
       <div className="space-y-1.5">
