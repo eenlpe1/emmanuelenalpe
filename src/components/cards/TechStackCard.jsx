@@ -60,7 +60,7 @@ function TechStackCard() {
               BootStrap 5
             </span>
             <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
-              Tailwind CSS
+              TailwindCSS
             </span>
             <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/40">
               JavaScript
