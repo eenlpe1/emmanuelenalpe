@@ -68,6 +68,20 @@ function ExperienceCard() {
         <div className="relative pl-6 group/role">
           <div className="absolute left-0 top-1.5 w-3 h-3 rounded-full border-2 bg-background hover:bg-accent-foreground transition-colors duration-200"></div>
           <div className="space-y-1">
+            <h3 className="text-sm font-bold">Academic Tutor</h3>
+            <div className="flex items-center justify-between">
+              <span className="text-xs text-foreground/70">
+                CourseHero
+              </span>
+              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 border border-foreground/20">
+                2024
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="relative pl-6 group/role">
+          <div className="absolute left-0 top-1.5 w-3 h-3 rounded-full border-2 bg-background hover:bg-accent-foreground transition-colors duration-200"></div>
+          <div className="space-y-1">
             <h3 className="text-sm font-bold">BS Computer Science</h3>
             <div className="flex items-center justify-between">
               <span className="text-xs text-foreground/70">
