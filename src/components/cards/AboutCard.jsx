@@ -21,11 +21,11 @@ function AboutCard() {
         <h2 className="text-lg font-bold">About</h2>
       </div>
       <p className="text-[14.5px] text-foreground/90 leading-relaxed font-medium mt-5">
-        I am a Full-Stack Junior Developer with a passion for building diverse software solutions. I enjoy solving complex problems and creating user-friendly applications. My journey in tech has been fueled by curiosity and a drive to continuously improve my technical and soft skills.
+        I am a Junior Developer with a passion for building diverse software solutions. I enjoy solving complex problems and creating user-friendly applications. My journey in tech has been fueled by curiosity and a drive to continuously improve my technical and soft skills.
         <br /><br />
-        I always strive to learn new technologies and frameworks. I am currently focused on enhancing my skills in cloud computing and DevOps practices, as well as exploring the latest trends in software development and cloud computing.
+        I always strive to learn new technologies and frameworks. I am currently focused on enhancing my skills as a developer, including cloud computing and DevOps practices, as well as exploring the latest trends in software development and cloud computing.
         <br /><br />
-        Recently, I have been working on several projects that enhance my skills as a Full-Stack Developer, as well as helping my company optimize processes and improve services. I am always open to new opportunities and challenges that allow me to grow and contribute to innovative projects.
+        Recently, I have been working on several projects that enhance my skills, as well as helping my company optimize processes and improve service offerings to customers. I am always open to new opportunities and challenges that allow me to grow and contribute to innovative projects.
       </p>
     </div>
   );
